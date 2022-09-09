@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visit El Salvador - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo1.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="Sites.html">TURISTIC SITES</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        
+  
+    </section>
+
+<!------------- About Us Content -------------------->   
+
+<section class="about-us">
+    
+    <div class="row">
+        <div class="about-col">
+            <h1>About El Salvador</h1>
+            <div class="row1">
+                <div class="site1">
+                    <h3>Entry Rquirements</h3>
+                    <img src="Images/Entry.png">
+                    <p>Passport depending on the place of origin, in some cases the Visa may cost USD$12.00 usually lasts 90 days.</p>
+                </div>
+                <div class="site1">
+                    <h3>Language</h3>
+                    <img src="Images/language.png" alt="">
+                    <p>Spanish</p>
+                </div>
+                <div class="site1">
+                    <h3>Currency</h3>
+                    <img src="Images/moneda.png" alt="">
+                    <p>U.S. dollar (USD),<br>
+                        Bitcoin (BTC)</p>
+                </div>
+            </div>
+            <div class="row2">
+                <div class="site2">
+                    <h3>Weather</h3>
+                    <img src="Images/clima.png" alt="">
+                    <p>In general, the climate in
+                        El Salvador is warm or tropical during most of the year. The annual average temperature is 28° C, ranging between 25° C and 28° C.</p>
+                </div>
+                <div class="site2">
+                    <h3>Internet</h3>
+                    <img src="Images/internet.png" alt="">
+                    <p>Coverage in almost 100% of the country by Wifi and Data packages</p>
+                </div>
+                <div class="site2">
+                    <h3>Transportation</h3>
+                    <img src="Images/transporte.png" alt="">
+                    <p>See the list of transportation availability in El Salvador by clicking on the following.</p>
+                    <a href="https://moovitapp.com/index/es-419/transporte_p%C3%BAblico-lines-San_Salvador-6110-1948225" class="hero-btn red-btn">Click Here For Transportation Information</a>
+                </div>
+        </div>
+        <div class="about-col"></div>
+
+    </div>
+
+</section>
+    
+
+<!-------Footer------->
+<section class="footer">
+    <p>VisitElSalvador© 2012 - 2022 <br> Disclaimer: Legal information is not legal advice, read the disclaimer. The information provided on <br>
+        this site is not legal advice, does not constitute a lawyer referral service, and no attorney-client or confidential relationship is or will be formed by use of the site.</p>
+        <div class="icons">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-github"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-linkedin"></i>
+        </div>
+        <p>Made by Juan Diego Barrientos</p>
+
+
+</section>
+
+    <!---------JavaScript for Toggle Menu------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+</html>

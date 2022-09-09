@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visit El Salvador - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="tamanique-header">
+        <nav>
+            <a href="index.html"><img src="images/logo1.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="Sites.html">TURISTIC SITES</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Tamanique Waterfalls</h1>
+  
+    </section>
+
+<!------------- Tamanique Information -------------------->
+<section class="about-tamanique">
+
+    <div class="tamanique-row">
+        <div class="tamanique-col">
+            <h1>Magical Waterfalls</h1>
+            <p>Discover them in the town of Tamanique, they are composed of 4 waterfalls where you will test your courage and adventurous spirit.<br><br>
+
+                In the first and second waterfalls you can jump into the pools; and in the others you can swim and appreciate the beautiful panoramic views of the area. If you like walking and adventure, the best thing to do is to reach the fourth waterfall, you only have to walk 2 kilometers. A few meters before you get there you must descend with the help of a rope, it is worth it.<br><br>
+                
+                The waterfalls are nestled in the mountains and have different heights and degrees of difficulty of access, as they move downstream. The main one has a majestic fall of more than 40 meters. In addition, you can enjoy a delicious swim in its pools, which invite you to cool off after the hike.<br><br>
+                
+                One advantage is that you can hire local guides, they remain in the central park of Tamanique every day from 9:00 am to 12:00 pm, the most recommended time to visit them, and from 2:00 pm to 5:00 pm. Although you can reserve in advance to go at the time that suits you best.</p>
+        </div>
+        <div class="tamanique-col">
+            <img src="Images/Tamanique 1.jpeg" alt="">
+        </div>
+    </div>
+
+</section>
+
+<!------------- Locations -------------------->   
+
+<section class="location">
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3878.019152966394!2d-89.42076418458588!3d13.595642090448603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f62d50a2f234d77%3A0x1517cf3cf12f3925!2sCascadas%20de%20Tamanique!5e0!3m2!1ses-419!2ssv!4v1662701177965!5m2!1ses-419!2ssv" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</section>
+    
+
+<!-------Footer------->
+<section class="footer">
+    <p>VisitElSalvador© 2012 - 2022 <br> Disclaimer: Legal information is not legal advice, read the disclaimer. The information provided on <br>
+        this site is not legal advice, does not constitute a lawyer referral service, and no attorney-client or confidential relationship is or will be formed by use of the site.</p>
+        <div class="icons">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-github"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-linkedin"></i>
+        </div>
+        <p>Made by Juan Diego Barrientos</p>
+
+
+</section>
+
+    <!---------JavaScript for Toggle Menu------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+</html>

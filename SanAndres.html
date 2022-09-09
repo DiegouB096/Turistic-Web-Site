@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visit El Salvador - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="andres-header">
+        <nav>
+            <a href="index.html"><img src="images/logo1.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="Sites.html">TURISTIC SITES</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>San Andres Archaeological Site</h1>
+  
+    </section>
+
+<!------------- San Andres Information -------------------->
+<section class="about-coatepeque">
+
+    <div class="coatepeque-row">
+        <div class="coatepeque-col">
+            <h1>Discover the Mayan World</h1>
+            <p>San Andrés is one of the largest pre-Hispanic centers in El Salvador. It would have constituted a regional capital between 600 and 900 AD. This ancient community covered a total of 200 hectares or more, and consisted of a monumental center surrounded by a large common residential area.<br><br>
+
+                The site comprises an acropolis, which is an elevated plaza with pyramids and dwelling houses on top. There is also a large plaza on the north side where there are other pyramids, including a bell-shaped one. Most of the structures are open to the public, making your tour more entertaining and with beautiful greenery.<br><br>
+                
+                According to researchers, in the surrounding area, small huts were used by farmers who harvested the main products, such as corn, beans and pipian. All the buildings were constructed of adobe blocks, except for two structures that were built with blocks of volcanic tuff, known locally as talpetate. Details of the layout of the acropolis and everything found are on display in the site museum.<br><br>
+                
+                It is believed that San Andrés came to lord it over the Zapotitán valley, and some neighboring areas, such as the valley of Las Hamacas, now San Salvador.<br><br>
+                
+                San Andres tends to be hot, so it is best to wear appropriate clothing and shoes. Don't forget to bring a hat. It is also advisable to bring your own food, as the site has picnic areas and a cafeteria, where you can find water, soft drinks, hydrating drinks and snacks.</p>
+        </div>
+        <div class="coatepeque-col">
+            <img src="Images/San Andres 4.jpg" alt="">
+        </div>
+    </div>
+
+</section>
+
+<!------------- Locations -------------------->   
+
+<section class="location">
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3874.637419918967!2d-89.39148118463086!3d13.800717699874864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f63274327e121c5%3A0x3358c8e490976ea6!2sSitio%20Arqueol%C3%B3gico%20San%20Andr%C3%A9s!5e0!3m2!1ses-419!2ssv!4v1662693183117!5m2!1ses-419!2ssv" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</section>
+    
+
+<!-------Footer------->
+<section class="footer">
+    <p>VisitElSalvador© 2012 - 2022 <br> Disclaimer: Legal information is not legal advice, read the disclaimer. The information provided on <br>
+        this site is not legal advice, does not constitute a lawyer referral service, and no attorney-client or confidential relationship is or will be formed by use of the site.</p>
+        <div class="icons">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-github"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-linkedin"></i>
+        </div>
+        <p>Made by Juan Diego Barrientos</p>
+
+
+</section>
+
+    <!---------JavaScript for Toggle Menu------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+</html>

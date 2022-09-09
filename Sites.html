@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visit El Salvador - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="Sites-header">
+        <video autoplay loop muted plays-inline class="back-video">
+            <source src="Videos/TurismSV.mp4" type="video/mp4">
+        </video>
+        <nav>
+            <a href="index.html"><img src="images/logo1.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="Sites.html">TURISTIC SITES</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Start Your Trip Today</h1>
+            
+        
+  
+    </section>
+
+<!-------Sites Body------->
+
+<section class="sites">
+    <h1>Turistic Sites</h1>
+    
+    <div class="row1">
+        <div class="site1">
+            <h3>Tamanique Waterfalls</h3>
+            <img src="Images/Tamanique 4.jpg">
+            <p>Located just 20 minutes from the coast of La Libertad is the town of Tamanique. It is a place of cliffs and mountains and where you can combine the beach experience just minutes away.</p>
+            <a href="Tamanique.html" class="hero-btn red-btn">Explore Now</a>
+        </div>
+        <div class="site1">
+            <h3>Lake Coatepeque</h3>
+            <img src="Images/Coatepeque 3.jpg">
+            <p>Lake Coatepeque is of volcanic origin and is located 18 km south of the city of Santa Ana. It has an altitude of 745 meters above sea level and an area of 25.3 square kilometers. In addition, its depth of 115 m.</p>
+            <a href="Coatepeque.html" class="hero-btn red-btn">Explore Now</a>
+        </div>
+        <div class="site1">
+            <h3>El Imposible National Park</h3>
+            <img src="Images/Imposible 1.jpg">
+            <p>El Imposible is a rainforest, in parts tropical and in others sub-tropical. Located on the Sierra de Apaneca-Ilamatepeque, it has the greatest biodiversity in the country as part of a mature forest, typical of early Mesoamerica.</p>
+            <a href="Imposible.html" class="hero-btn red-btn">Explore Now</a>
+        </div>
+    </div>
+    <div class="row2">
+        <div class="site2">
+            <h3>El Tunco Beach</h3>
+            <img src="Images/Tunco 11.jpg">
+            <p>El Tunco is a black sand beach, it is located in the department of La Libertad. On this beach you can perform various activities, from sunbathing in a comfortable hammock, hiking, tasting its cuisine, to dominate the rapturous waves.</p>
+            <a href="Tunco.html" class="hero-btn red-btn">Explore Now</a>
+        </div>
+        <div class="site2">
+            <h3>San Andres Archaeological Site</h3>
+            <img src="Images/San Andres 5.jpg">
+            <p>San Andrés is a pre-Hispanic Mayan site in El Salvador, whose long occupation began around 900 B.C. as an agricultural village in the Zapotitán valley of the department of La Libertad.</p>
+            <a href="SanAndres.html" class="hero-btn red-btn">Explore Now</a>
+        </div>
+        <div class="site2">
+            <h3>Santa Ana Volcano</h3>
+            <img src="Images/Ana 1.jpg">
+            <p>Pon a prueba tu resistencia alcanzando la cima del volcán Ilamatepec, también llamado volcán de Santa Ana. Si lo logras ten por seguro que tendrás algunas de las vistas más impresionantes de la zona, teniendo de fondo las aguas turquesas del lago de Coatepeque.</p>
+            <a href="Ilamatepec.html" class="hero-btn red-btn">Explore Now</a>
+        </div>
+    </div>
+</section>
+    
+<!-------Footer------->
+<section class="footer">
+    <p>VisitElSalvador© 2012 - 2022 <br> Disclaimer: Legal information is not legal advice, read the disclaimer. The information provided on <br>
+        this site is not legal advice, does not constitute a lawyer referral service, and no attorney-client or confidential relationship is or will be formed by use of the site.</p>
+        <div class="icons">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-github"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-linkedin"></i>
+        </div>
+        <p>Made by Juan Diego Barrientos</p>
+
+
+</section>
+
+    <!---------JavaScript for Toggle Menu------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+</html>
